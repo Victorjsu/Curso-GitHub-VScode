@@ -16,6 +16,6 @@ function precioConIva($precio, $iva) {
  * @return float Precio final.
  */
 function descuantoVictor($precio, $descuento) {
-    return $precio - ($precio * ($descuento / 100));
+    return $precio - ($precio * ($descuento / 100))
 }
 ?>
